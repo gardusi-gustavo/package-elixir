@@ -1,0 +1,18 @@
+{
+  "rank": "2.3",
+  "title": "Pin the Elixir and OTP versions",
+  "context": "Toolchain drift can change behavior.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Pin Elixir and OTP versions in CI and docs.",
+    "expected_outcome": "CI and docs use the same versions.",
+    "acceptance_criteria": [
+      "Versions are pinned",
+      "Upgrade policy is documented"
+    ]
+  },
+  "attempts": []
+}

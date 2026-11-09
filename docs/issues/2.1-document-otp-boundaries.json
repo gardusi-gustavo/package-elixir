@@ -1,0 +1,18 @@
+{
+  "rank": "2.1",
+  "title": "Document OTP boundaries",
+  "context": "The package should stay framework-free.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Document what belongs in the library and what belongs in apps.",
+    "expected_outcome": "Contributors keep Phoenix and app code out.",
+    "acceptance_criteria": [
+      "Boundaries are explicit",
+      "Examples are minimal"
+    ]
+  },
+  "attempts": []
+}

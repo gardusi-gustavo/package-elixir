@@ -1,0 +1,18 @@
+{
+  "rank": "2.2",
+  "title": "Add property-based tests",
+  "context": "The current tests are example-based.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add StreamData property tests for chunking.",
+    "expected_outcome": "Core behavior is checked across generated inputs.",
+    "acceptance_criteria": [
+      "Property tests run in CI",
+      "Failures are reproducible"
+    ]
+  },
+  "attempts": []
+}

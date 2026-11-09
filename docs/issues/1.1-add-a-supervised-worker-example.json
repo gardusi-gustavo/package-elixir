@@ -1,0 +1,18 @@
+{
+  "rank": "1.1",
+  "title": "Add a supervised worker example",
+  "context": "The package should demonstrate OTP structure.",
+  "limits": {
+    "max_commits": 5,
+    "max_file_changes": 4
+  },
+  "spec": {
+    "summary": "Add a GenServer or Task-based example.",
+    "expected_outcome": "A consumer can start and stop the worker.",
+    "acceptance_criteria": [
+      "Supervision is documented",
+      "Tests cover lifecycle"
+    ]
+  },
+  "attempts": []
+}
